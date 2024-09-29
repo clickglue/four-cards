@@ -1,4 +1,4 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Four card solution
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 

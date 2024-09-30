@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code on Github](https://github.com/clickglue/recipe-page)
-- Live Site URL: [Page on Github](https://clickglue.github.io/recipe-page/)
+- Solution URL: [Code on Github](https://github.com/clickglue/four-cards)
+- Live Site URL: [Page on Github](https://clickglue.github.io/four-cards)
 
 ## My process
 
@@ -57,13 +57,14 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Utopia fluid CSS system
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Chrome inspector for adaptive sizes
-Basic HTML (ul, ol, table, ...)
+Utopia
+Adaptive grid
 
 ### Continued development
 

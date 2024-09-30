@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
-<link rel="stylesheet" href="./reset.css">
-<link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  <main>
-    <article>
-      <section class="introduction">
-        <h2 class="introduction__lead">Reliable, efficient delivery</h2>
-        <h1 class="introduction__head">Powered by Technology</h1>
-        <p class="introduction__text">Our Artificial Intelligence powered tools use millions of project data points 
-          to ensure that your project is successful</p>  
-      </section>
-      <section class="catalog">
-        <div class="catalog__card">
-          <h1 class="catalog__card-title">Supervisor</h1>
-          <p class="catalog__card-text">Monitors activity to identify project roadblocks</p>
-          
-          
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Four card feature section</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+        <article class="introduction">
+          <h1 class="introduction__lead">Reliable, efficient delivery</h2>
+          <h2 class="introduction__head">Powered by Technology</h1>
+          <p class="introduction__text">
+            Our Artificial Intelligence powered tools use millions of project
+            data points to ensure that your project is successful
+          </p>
+        </article>
+        <article class="catalog">
+          <div class="catalog__card" style="border-color: var(--primary-cyan);">
+            <h1 class="catalog__card-title">Supervisor</h1>
+            <p class="catalog__card-text">
+              Monitors activity to identify project roadblocks
+            </p>
+            <img class="catalog__card-image" src="./images/icon-supervisor.svg" alt="Image of the supervisor">
+          </div>
+        <div class="catalog__gridspan">
+          <div class="catalog__card" style="border-color: var(--primary-red);">
+            <h1 class="catalog__card-title">Team Builder</h1>
+            <p class="catalog__card-text">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img class="catalog__card-image" src="./images/icon-team-builder.svg" alt="Image of a teambuilder">
+          </div>
+          <div class="catalog__card" style="border-color: var(--primary-orange);">
+            <h1 class="catalog__card-title">Karma</h1>
+            <p class="catalog__card-text">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <img class="catalog__card-image" src="./images/icon-karma.svg" alt="Image of Karma">
+          </div>
         </div>
-      </section>
-
-    </article>
-  </main>
-  
-
-
-
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+          <div class="catalog__card" style="border-color: var(--primary-blue);">
+            <h1 class="catalog__card-title">Calculator</h1>
+            <p class="catalog__card-text">
+              Uses data from past projects to provide better delivery estimates
+            </p>
+            <img class="catalog__card-image" src="./images/icon-calculator.svg" alt="Image of the calculator">
+          </div>
+        </article>
+    </main>
+  </body>
 </html>

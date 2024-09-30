@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot%202024-09-28%20at%2023.26.47.png)
+![](./Scherm­afbeelding%202024-10-01%20om%2000.32.52.png)
 
 ### Links
 
